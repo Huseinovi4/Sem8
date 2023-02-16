@@ -11,4 +11,4 @@ foreach (var collection in group)
   else
   Console.WriteLine($"Элемент {collection.Key} повторяется {collection.Count()} раз");
 }
-Console.ReadKey();
+
