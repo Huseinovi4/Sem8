@@ -65,17 +65,12 @@ int[,] Multiplication(int[,] collectionOne, int[,] collectionTwo)
     for (int j = 0; j < returnArray.GetLength(1); j++)
     {
       returnArray[i, j] = collectionOne[i, j] * collectionTwo[i, j];
-      if (collectionOne.GetLength(1) < collectionTwo.GetLength(1))
-      {
-        returnArray[i, j] = 1 * collectionTwo[i, j];
-      }
-      System.Console.Write(returnArray[i, j] + " ");
     }
-    System.Console.WriteLine();
   }
   return returnArray;
 }
 System.Console.WriteLine();
 int[,] Finish = Multiplication(matrixOne, matrixTwo);
+PrintArray(Finish);
 
 
