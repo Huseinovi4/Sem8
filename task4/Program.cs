@@ -20,10 +20,12 @@ void PrintArray(int[,] matr)
     System.Console.WriteLine();
   }
 }
+System.Console.WriteLine("Введите размеры первого массива[n,m]");
 System.Console.WriteLine("Введите число n: ");
 int n = Convert.ToInt32(Console.ReadLine());
 System.Console.WriteLine("Введите число m: ");
 int m = Convert.ToInt32(Console.ReadLine());
+System.Console.WriteLine("Введите размеры второго массива[l,k]");
 System.Console.WriteLine("Введите число l:");
 int l = Convert.ToInt32(Console.ReadLine());
 System.Console.WriteLine("Введите число k:");
